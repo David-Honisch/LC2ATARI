@@ -14,7 +14,12 @@ A simple desktop application to emulate Atari ST 520/1040 Emulator.
 
 <img src="assets/video.png" alt="video demo" width="320" />
 
-Mp3 files will be saved to a **y2mp3** folder in the **Download** folder
+A simple desktop application to emulate Atari ST 520/1040 Emulator.
+- no roms included. Use for example:https://github.com/dmcoles/EstyJs
+Browser for roms on "Drive A" or "Drive B"
+
+a litte ts demo included based done by David Honisch
+Powered by http://phaser.io
 
 ## Supported os
 <img width="30" alt="windows" src="assets/video.png?sanitize=true" />
