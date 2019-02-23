@@ -10,7 +10,7 @@ http://estyjs.azurewebsites.net/
 
 ## What is "LC2ATARI" app?
 
-A simple desktop application to download Youtube videos to mp3, one by one or all of them.
+A simple desktop application to emulate Atari ST 520/1040 Emulator.
 
 <img src="assets/video.png" alt="video demo" width="320" />
 
