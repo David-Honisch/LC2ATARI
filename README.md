@@ -1,9 +1,10 @@
 <h1>LC2ATARI</h1>
-
+Atari ST 520/1040 Emulator
 Source:
 http://letztechance.org
 
-Based EstyJS by 
+Based on 
+http://estyjs.azurewebsites.net/
 https://img.shields.io/github/release/moshfeu/
 
 <img src="assets/video.png" alt="LC2ATARI logo" />
