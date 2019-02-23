@@ -76,7 +76,7 @@ LC2ATARI/EstyJS - Javascript based Atari ST 520/1040 emulator
 - [yestyjs](https://github.com/dmcoles/EstyJs)
 
 ### TODO
-
+[sync sound]Sound is not optimized...
 [project]Thanks you for your willing to contribute![project](http://www.letztechance.org/) page.
 [baseproject](http://estyjs.azurewebsites.net/) page.
 
