@@ -5,35 +5,35 @@ http://letztechance.org
 
 Based on 
 http://estyjs.azurewebsites.net/
-https://img.shields.io/github/release/moshfeu/
-
+<br>
 <img src="assets/video.png" alt="LC2ATARI logo" />
 
 ## What is "LC2ATARI" app?
 
 A simple desktop application to download Youtube videos to mp3, one by one or all of them.
 
-<img src="assets/video.gif" alt="video demo" width="320" />
+<img src="assets/video.png" alt="video demo" width="320" />
 
 Mp3 files will be saved to a **y2mp3** folder in the **Download** folder
 
 ## Supported os
-<img width="30" alt="windows" src="app-resources/readme/windows.svg?sanitize=true" />
-<img width="30" alt="mac" src="app-resources/readme/mac.svg?sanitize=true" />
-<img width="30" alt="linux" src="app-resources/readme/linux.svg?sanitize=true" />
+<img width="30" alt="windows" src="assets/video.png?sanitize=true" />
+<img width="30" alt="mac" src="assets/video.png?sanitize=true" />
+<img width="30" alt="linux" src="assets/video.png?sanitize=true" />
 Current build is only compiled for Microsoft Windows OS.
 
 ## Download
 
-- Free 💰
-- No ads 📣
+- Free
+- No ads
 
 Find your download: [https://github.com/David-Honisch/LC2ATARI](https://github.com/David-Honisch/LC2ATARI)
 
 ## Change log
 
 ##### 1.1.0
-Allow fetch and download a single video
+Emulate Atari ST 520/1040 Emulator
+- tos.img required
 
 ##### 1.0.0
 LC2ATARI/EstyJS - Javascript based Atari ST 520/1040 emulator 
@@ -72,7 +72,8 @@ LC2ATARI/EstyJS - Javascript based Atari ST 520/1040 emulator
 
 ### TODO
 
-🖖🎖 Thanks you for your willing to contribute! You can find the list in the [project](http://estyjs.azurewebsites.net/) page.
+[project]Thanks you for your willing to contribute![project](http://www.letztechance.org/) page.
+[baseproject](http://estyjs.azurewebsites.net/) page.
 
 ## License
 MIT
