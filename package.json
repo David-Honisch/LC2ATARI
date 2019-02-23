@@ -1,0 +1,71 @@
+{
+  "name": "LC2Atari",
+  "ProductName": {
+    "name": "LC2Atari",
+    "version": "1.8.4"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3",
+    "postinstall": "install-app-deps",
+    "package-mac": "electron-packager . LC2Atari --overwrite --platform=darwin --arch=x64 --icon=./favicon.ico.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . LC2Atari --overwrite --asar=true --platform=win32 --arch=ia32 --icon=./favicon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"LC2Atari\"",
+    "package-linux": "electron-packager . LC2Atari --overwrite --asar=true --platform=linux --arch=x64 --icon=./32x32.png --prune=true --out=release-builds"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron-builder": "^20.38.5",
+    "electron-rebuild": "^1.8.4"
+  },
+  "dependencies": {
+    "angular": "^1.3.5",
+    "app": "^0.1.0",
+    "axios": "^0.17.1",
+    "cordova-plugin-http": "^1.2.0",
+    "electron": "^4.0.5",
+    "electron-is-dev": "^1.0.1",
+    "electron-packager": "^13.1.0",
+    "html-extractor": "^0.2.2",
+    "htmlparser2": "^3.9.2",
+    "imdb-api": "^3.1.2",
+    "node-abi": "^2.5.1",
+    "prepublish": "^2.2.0",
+    "shelljs": "^0.8.1",
+    "sqlite": "^3.0.2",
+    "sqlite3": "^4.0.6",
+    "util": "^0.11.1"
+  },
+  "build": {
+    "appId": "org.letztechance.LC2Atari",
+    "copyright": "Copyright © 2018 ${David Honisch}",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "title": "LC2Atari",
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  }
+}

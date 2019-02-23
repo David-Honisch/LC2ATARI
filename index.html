@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>LC2ATARI v.0.1a</title>
+	    <script>
+        window.nodeRequire = require;
+            delete window.require;
+            delete window.exports;
+            delete window.module;
+        </script>
+	
+	<script src="bin/jquery-1.9.1.js"></script>
+	<script src="bin/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="lib/phaser-arcade-physics.min.js"></script>
+	<script src="lib/phaser.min.js"></script>
+	<script src="bin/game.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/core.css" />
+	<style>
+		body {
+			background: #000000;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="content"></div>
+</body>
+<script>
+	window.onload = () => {
+		var game = new LC2Intro.Game();
+	};
+</script>
+
+</html>

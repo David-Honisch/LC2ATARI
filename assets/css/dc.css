@@ -1,0 +1,49 @@
+	#mainContainer{
+		width:790px;
+		margin:0 auto;
+		text-align:left;
+		background-color:#FFF;
+		height:100%;
+		padding-bottom:5px;
+	}
+
+	#mainContainer .news{
+		margin:1px;
+		border:1px dotted #555;
+		background-color:#EEE;	
+		padding:5px;
+	}
+	
+	#mainContainer img{
+		float:left;
+		margin:2px;
+	}
+	div#header{
+		border:0px;
+		background-color:#FFF;
+		padding:0px;
+		margin:0px;
+		height:100px;
+	}
+	
+	h2{
+		font-size:1.3em;
+		margin-bottom:5px;
+	}
+	p{
+		margin-top:0px;
+	}
+	.clear{
+		clear:both;
+	}
+	h2{
+		color:#000;
+	}
+	
+	#content{
+	width:100%;
+	}
+	.header{
+		padding-left:5px;
+		font-weight:bold;
+	}
