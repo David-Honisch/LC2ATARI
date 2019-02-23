@@ -6,7 +6,7 @@ http://letztechance.org
 Based EstyJS by 
 https://img.shields.io/github/release/moshfeu/
 
-<img src="app-resources/logo-128.png" alt="logo" />
+<img src="assets/video.png" alt="LC2ATARI logo" />
 
 ## What is "LC2ATARI" app?
 
